@@ -20,19 +20,17 @@ Separation of concerns using controllers, models, and routes
   <li>nodemon</li>
 </ul>
 
-<h2></h2>Setup Instructions
+<h2>Setup Instructions</h2>
 
-Clone the repository:
 <ul>
-  <li> > bash</li>
-  <li> > Copy code</li>
-  <li> > git clone https://github.com/your-username/contact-management-backend.git</li>
+  <li> >Clone the repository:</li>
+  <li> >> bash</li>
+  <li> >> git clone https://github.com/your-username/contact-management-backend.git</li>
 </ul>
 
 Install dependencies:
 <ul>
   <li> > bash</li>
-  <li> > Copy code</li>
   <li> > cd contact-management-backend</li>
   <li> > npm install</li>
 </ul>
@@ -41,7 +39,6 @@ Install dependencies:
   <li> > Create a .env file in the root directory.</li>
   <li> > Add the following environment variables:</li>
   <li> >> makefile</li>
-  <li> >> Copy code</li>
   <li> >> PORT=3000</li>
   <li> >> MONGODB_URI=your-mongodb-connection-string</li>
   <li> >> JWT_SECRET=your-jwt-secret</li>
@@ -70,8 +67,6 @@ Configure environment variables:
   <li>controllers/: Request handlers for each route.</li>
   <li>models/: Mongoose schemas and models.</li>
   <li>routes/: Express routes for different endpoints.</li>
-  <li></li>
-  <li></li>
 </ul>
 
 <h2>Contributing</h2> 
